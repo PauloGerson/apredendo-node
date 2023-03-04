@@ -6,5 +6,5 @@ const user = [
 
  
 ]
-const {nome,idade} = user[0]
-console.log(nome, idade)
+const {nome: joao,idade} = user[0]
+console.log(joao)
