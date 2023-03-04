@@ -5,7 +5,7 @@ module.exports = [
   {
     endpoint: '/users',
     method: 'GET',
-    handler: UserController.listUser
+    handler: UserController.listUser,
   },
   {
     endpoint: '/users/:id',
